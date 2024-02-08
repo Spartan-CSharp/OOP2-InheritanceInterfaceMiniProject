@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IInventoryItem.cs" />
+    <Compile Include="Interfaces\IPurchaseable.cs" />
+    <Compile Include="Interfaces\IRentable.cs" />
+    <Compile Include="Models\BeachBallModel.cs" />
+    <Compile Include="Models\BookModel.cs" />
+    <Compile Include="Models\CarModel.cs" />
+    <Compile Include="Models\ExcavatorModel.cs" />
+    <Compile Include="Models\InventoryItemModel.cs" />
+    <Compile Include="Models\MotorcycleModel.cs" />
+    <Compile Include="Models\SunscreenModel.cs" />
+    <Compile Include="Models\TowelModel.cs" />
+    <Compile Include="Models\TruckModel.cs" />
+    <Compile Include="Models\VehicleModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
